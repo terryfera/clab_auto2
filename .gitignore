@@ -1,0 +1,7 @@
+clab_dev_test
+*.yml.bak
+clab*
+./clab*
+venv
+init-v2.sh
+*.pyc

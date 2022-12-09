@@ -1,0 +1,12 @@
+name: arista-lab
+
+topology:
+  nodes:
+    ceos01:
+      kind: ceos
+      image: h4ndzdatm0ld/ceosimage:4.28.0F
+    ceos02:
+      kind: ceos
+      image: h4ndzdatm0ld/ceosimage:4.28.0F
+  links:
+    - endpoints: ["ceos01:eth1", "ceos02:eth1"]
